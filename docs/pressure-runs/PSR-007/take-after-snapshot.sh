@@ -7,10 +7,10 @@
 
 set -euo pipefail
 
-WRIT_ROOT="/home/lucio.saldivar/.claude/skills/writ"
+WRIT_ROOT="~/.claude/skills/writ"
 PSR_DIR="$WRIT_ROOT/docs/pressure-runs/PSR-007"
 MASTER_LOG="$WRIT_ROOT/workflow-friction.log"
-TEST_LOG="/home/lucio.saldivar/workspaces/MageContextABTest/workflow-friction.log"
+TEST_LOG="~/workspaces/MageContextABTest/workflow-friction.log"
 
 TEST_BASELINE=379
 TEST_AFTER=$(wc -l < "$TEST_LOG" 2>/dev/null || echo "$TEST_BASELINE")

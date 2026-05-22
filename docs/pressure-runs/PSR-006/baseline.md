@@ -9,7 +9,7 @@ transcript afterward for grading.
 This is where the manual test session runs. Friction events from
 that session accumulate in the project-local log there.
 
-Path: `/home/lucio.saldivar/workspaces/MageContextABTest/workflow-friction.log`
+Path: `~/workspaces/MageContextABTest/workflow-friction.log`
 Line count at snapshot: **297**
 
 This is the load-bearing baseline for grading. Delta = (post-run
@@ -17,7 +17,7 @@ line count there) - 297.
 
 ## Master friction log (this skill)
 
-Path: `/home/lucio.saldivar/.claude/skills/writ/workflow-friction.log`
+Path: `~/.claude/skills/writ/workflow-friction.log`
 Line count at snapshot: **7554**
 
 Captures only orchestrator-side activity (this session). Most PSR-006

@@ -2,7 +2,7 @@
 
 > **Refresh note (2026-05-10).** The 2026-05-10 cleanup deleted three legacy hooks that this doc originally described as "registered but superseded": `check-gate-approval.sh`, `enforce-final-gate.sh`, and `writ-pretool-rag.sh`. They are gone from disk. The current wired set is **30 hooks** (was 33). Separately, `bin/run-analysis.sh` grew from ~387 lines to ~1,053 lines via 6 new cross-language security/performance/scaling analyzers added in Phase 1-5 of the public-rulebook expansion. The new analyzers are documented in §10 below. Use `templates/settings.json` as the canonical wiring source; the table in §1 below has been updated to drop the deleted hooks.
 
-Skill root: `/home/lucio.saldivar/.claude/skills/writ`. Hook scripts under `.claude/hooks/`. Libraries under `bin/lib/`. Hooks are wired via `templates/settings.json` (the canonical wiring file users copy into `~/.claude/settings.json`).
+Skill root: `~/.claude/skills/writ`. Hook scripts under `.claude/hooks/`. Libraries under `bin/lib/`. Hooks are wired via `templates/settings.json` (the canonical wiring file users copy into `~/.claude/settings.json`).
 
 ## 1. Hook Trigger Map
 

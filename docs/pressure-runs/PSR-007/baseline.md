@@ -24,7 +24,7 @@ PSR-007 confirms the integration by exercising the full workflow:
 ## Test project: ~/workspaces/MageContextABTest
 
 Project-local friction log path:
-  /home/lucio.saldivar/workspaces/MageContextABTest/workflow-friction.log
+  ~/workspaces/MageContextABTest/workflow-friction.log
 Line count at snapshot: **379**
 
 This is the load-bearing baseline for grading. Delta = (post-run
@@ -32,7 +32,7 @@ line count there) - 379.
 
 ## Master friction log (this skill)
 
-Path: `/home/lucio.saldivar/.claude/skills/writ/workflow-friction.log`
+Path: `~/.claude/skills/writ/workflow-friction.log`
 Line count at snapshot: **9718**
 
 Captures only orchestrator-side activity (this session). Most

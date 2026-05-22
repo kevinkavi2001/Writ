@@ -4,7 +4,7 @@ Captured immediately before run.
 
 ## Master friction log
 
-Path: `/home/lucio.saldivar/.claude/skills/writ/workflow-friction.log`
+Path: `~/.claude/skills/writ/workflow-friction.log`
 Line count: 6181
 
 After the run, diff against this baseline to extract the events

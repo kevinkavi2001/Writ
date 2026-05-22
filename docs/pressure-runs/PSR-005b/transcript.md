@@ -10,7 +10,7 @@ here to load-bearing exchanges.
 Initial `writ analyze-friction ...` calls returned
 `writ: command not found`. The model adapted:
 
-> /home/lucio.saldivar/.claude/skills/writ/.venv/bin/writ
+> ~/.claude/skills/writ/.venv/bin/writ
 > analyze-friction --rule-effectiveness --since 30 --json
 
 All six analyzers then ran clean.

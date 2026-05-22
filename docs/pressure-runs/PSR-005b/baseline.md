@@ -4,7 +4,7 @@ Captured immediately before run.
 
 ## Master friction log
 
-Path: `/home/lucio.saldivar/.claude/skills/writ/workflow-friction.log`
+Path: `~/.claude/skills/writ/workflow-friction.log`
 Line count at snapshot: 7037
 
 ## Daemon state

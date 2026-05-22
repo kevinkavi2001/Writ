@@ -8,10 +8,10 @@
 
 set -euo pipefail
 
-WRIT_ROOT="/home/lucio.saldivar/.claude/skills/writ"
+WRIT_ROOT="~/.claude/skills/writ"
 PSR_DIR="$WRIT_ROOT/docs/pressure-runs/PSR-006"
 MASTER_LOG="$WRIT_ROOT/workflow-friction.log"
-TEST_LOG="/home/lucio.saldivar/workspaces/MageContextABTest/workflow-friction.log"
+TEST_LOG="~/workspaces/MageContextABTest/workflow-friction.log"
 
 # Test project (where the manual test ran). Load-bearing for grading.
 TEST_BASELINE=297
@@ -71,7 +71,7 @@ Captured by take-after-snapshot.sh.
 
 ## Test project friction log delta (load-bearing)
 
-Path: /home/lucio.saldivar/workspaces/MageContextABTest/workflow-friction.log
+Path: ~/workspaces/MageContextABTest/workflow-friction.log
 
 - Baseline: $TEST_BASELINE lines (see baseline.md)
 - Post-run: $TEST_AFTER lines

@@ -8,7 +8,7 @@ plugin marketplace at https://claude.ai/settings/plugins/submit.
 Run through this before opening the form. Every box must be checked.
 
 - [x] **Manifest validates**: `claude plugin validate
-      /home/lucio.saldivar/.claude/skills/writ/` exits 0 with no warnings.
+      ~/.claude/skills/writ/` exits 0 with no warnings.
       Verified during Phase D end-to-end (commit `278128c`).
 - [x] **Marketplace name is not reserved**: `writ` is not on the reserved
       list at code.claude.com/docs/en/plugin-marketplaces#required-fields.
@@ -110,8 +110,8 @@ the submission form's dropdown, prefer that.
 
 - Name: Lucio Saldivar
 - GitHub: https://github.com/infinri
-- Email: lucio.saldivar@2ndswing.com (use a public-facing alias if
-  you'd rather not expose this to the marketplace listing)
+- Email: <public-facing-alias@example.com> (replace with a public-facing
+  alias before submitting to the marketplace listing)
 
 ### URLs
 

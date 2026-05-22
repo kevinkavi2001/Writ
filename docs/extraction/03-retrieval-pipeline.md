@@ -2,7 +2,7 @@
 
 > **Refresh note (2026-05-10).** Three "inert" notes in the original draft have been resolved by the 2026-05-10 inert-features cleanup: `compute_confidence_weight` is now invoked from `compute_score`; `apply_context_budget` now receives an `abstractions` argument from `build_pipeline`; and the `clusters.py:193` comment about Euclidean vs cosine was corrected. Resolved sites are flagged inline below. Latency targets remain accurate against the larger corpus (live E2E p95 at 276 rules: 0.590 ms, well inside the 10 ms budget).
 
-Source root: `/home/lucio.saldivar/.claude/skills/writ/writ/retrieval/`
+Source root: `~/.claude/skills/writ/writ/retrieval/`
 
 ## 1. Module layout
 

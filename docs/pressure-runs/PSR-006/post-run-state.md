@@ -4,7 +4,7 @@ Captured by take-after-snapshot.sh.
 
 ## Test project friction log delta (load-bearing)
 
-Path: /home/lucio.saldivar/workspaces/MageContextABTest/workflow-friction.log
+Path: ~/workspaces/MageContextABTest/workflow-friction.log
 
 - Baseline: 297 lines (see baseline.md)
 - Post-run: 374 lines
@@ -13,7 +13,7 @@ Path: /home/lucio.saldivar/workspaces/MageContextABTest/workflow-friction.log
 
 ## Master log delta (orchestrator-side, noise)
 
-Path: /home/lucio.saldivar/.claude/skills/writ/workflow-friction.log
+Path: ~/.claude/skills/writ/workflow-friction.log
 
 - Baseline: 7554 lines
 - Post-run: 7587 lines
